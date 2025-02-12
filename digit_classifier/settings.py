@@ -16,7 +16,11 @@ SECRET_KEY = 'django-insecure-z1_85)ex=m#ysz))knsz*#2r6v7&y2m_)#ccimx4&_r3*ba-r1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "digit-classifier-b0ok.onrender.com",  # Add your Render domain
+    "localhost",
+    "127.0.0.1"
+]
 
 
 # Application definition
